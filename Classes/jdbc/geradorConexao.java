@@ -12,7 +12,7 @@ public class geradorConexao {
 		try {
 			String url = "jdbc:mysql://localhost/cursojava?verifyServerCertificate=false&useSSL=true"; 
 			String usuario = "root";  
-			String senha = "Overpower556";
+			String senha = "fon";
 			
 			return DriverManager.getConnection(url, usuario, senha);
 			
